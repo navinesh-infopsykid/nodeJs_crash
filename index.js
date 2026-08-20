@@ -1,11 +1,9 @@
-const fs = require("node:fs");
-const path = require("node:path");
+// const {generateRandomNumber, celciusToFahrenheit} = require('./utils');
 
-const filePath = path.join(__dirname, "data.json");
+// console.log(`Random Number : ${generateRandomNumber()} `)
 
-// Sync (simple , blocks the thread)
-const data =fs.readFile(filePath, "utf-8", (err, data)=>{
-    if(err) throw err;
+// console.log(`celcius to Fahrenheit : ${celciusToFahrenheit(33)}`)
 
-});
-console.log("DATA : ", data)
+import { getPosts } from "./postController.js";
+
+console.log(getPosts())
