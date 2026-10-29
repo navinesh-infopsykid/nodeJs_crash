@@ -6,6 +6,20 @@
             "role" : "SWE",
             "status" : "applied",
             "appliedDate": "2026-06-01"
+        },
+        {
+            "id" : 2,
+            "company" : "Microsoft",
+            "role" : "SDE",
+            "status" : "applied",
+            "appliedDate": "2026-06-02"
+        },
+        {
+            "id" : 3,
+            "company" : "Facebook",
+            "role" : "SEE",
+            "status" : "applied",
+            "appliedDate": "2026-06-03"
         }
     ]
 }
